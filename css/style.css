@@ -8,6 +8,12 @@
     display: flex;
 }
 
+.container {
+    width: 68vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
 .structure-border {
     border: 2px dashed black;
 }
@@ -45,12 +51,6 @@ nav ul li {
     width: 77vw;
     margin: 0 auto;
     padding-top: 50px;
-}
-
-.container {
-    width: 68vw;
-    height: 100%;
-    margin: 0 auto;
 }
 
 .plans-choice {
@@ -120,4 +120,11 @@ nav ul li {
     height: 10rem;
     width: 68vw;
     margin: 6rem 0;
+}
+
+.faq {
+    background-color: darkkhaki;
+    height: 30rem;
+    margin: 6rem auto;
+    line-height: 7.3rem;
 }
