@@ -55,16 +55,22 @@ nav ul li {
 
 .plans-choice {
     background-color: darkolivegreen;
-    height: 50rem;
+    flex-wrap: wrap;
 }
 
 .plan-type {
     height: 40rem;
     width: 25rem;
-    margin: 2rem;
+    margin: 2rem 1rem;
 }
 
 .plan-type-large {
     height: 25rem;
-    width: 128rem;
+    width: 79rem;
+}
+
+.partner {
+    height: 40rem;
+    width: 79rem;
+    margin: 4rem 1rem;
 }
