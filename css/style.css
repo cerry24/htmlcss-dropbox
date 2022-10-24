@@ -92,3 +92,32 @@ nav ul li {
     width: 79rem;
     margin: 6rem 1rem;
 }
+
+.business-plan-partners {
+    background-color: #b4d0e7;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mini-logos-left,
+.mini-logos-right {
+    height: 39.6rem;
+    width: 39.6rem;
+    flex-wrap: wrap;
+}
+
+.company-logo {
+    height: 19.8rem;
+    width: 19.8rem;
+}
+
+.company-big {
+    height: 39.6rem;
+    width: 39.6rem;
+}
+
+.start-freetrial {
+    height: 10rem;
+    width: 68vw;
+    margin: 6rem 0;
+}
