@@ -14,6 +14,11 @@
     margin: 0 auto;
 }
 
+.big-container {
+    width: 77vw;
+    margin: 0 auto;
+}
+
 .structure-border {
     border: 2px dashed black;
 }
@@ -48,8 +53,6 @@ nav ul li {
 .jumbo-content {
     background-color: orange;
     height: 100%;
-    width: 77vw;
-    margin: 0 auto;
     padding-top: 50px;
 }
 
@@ -127,4 +130,20 @@ nav ul li {
     height: 30rem;
     margin: 6rem auto;
     line-height: 7.3rem;
+}
+
+footer {
+    background-color: rgb(44, 5, 62);
+    height: 60vh;
+}
+
+.footer-column {
+    height: 22rem;
+    width: 16rem;
+    margin: 3rem 1.5rem;
+}
+
+.language {
+    height: 5rem;
+    margin-top: 2rem;
 }
