@@ -8,14 +8,22 @@
     display: flex;
 }
 
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .container {
-    width: 68vw;
+    width: 1300px;
     height: 100%;
     margin: 0 auto;
 }
 
 .big-container {
-    width: 77vw;
+    width: 1450px;
     margin: 0 auto;
 }
 
@@ -24,7 +32,7 @@
 }
 
 header {
-    height: 8vh;
+    height: 80px;
     background-color: aqua;
     justify-content: space-between;
 }
@@ -43,6 +51,7 @@ nav ul li {
 
 nav ul li {
     list-style-type: none;
+    display: inline;
 }
 
 #jumbotron {
@@ -56,94 +65,85 @@ nav ul li {
     padding-top: 50px;
 }
 
-.plans-choice {
+section.plans-choice .container {
     background-color: darkolivegreen;
-    flex-wrap: wrap;
 }
 
-.plan-type {
-    height: 40rem;
-    width: 25rem;
-    margin: 2rem 1rem;
+.radio {
+    padding-top: 5rem;
 }
 
-.plan-type-large {
-    height: 25rem;
-    width: 79rem;
+.column {
+    height: 640px;
+    width: calc(100% / 3 - 2rem);
+    margin-top: 3rem;
+}
+
+.full-width-column {
+    width: 100%;
+    height: 300px;
+    margin-top: 3rem;
 }
 
 .partner {
-    height: 40rem;
-    width: 79rem;
-    margin: 4rem 1rem;
+    height: 500px;
+    width: 100%;
+    margin: 4rem 0;
 }
 
-.dropbox-business-features {
+section.business-features .columns {
     background-color: brown;
     padding-top: 4rem;
-    flex-wrap: wrap;
-}
-
-.feature {
-    height: 30rem;
-    width: 25rem;
-    margin: 1.5rem 1rem;
 }
 
 .discover-more {
-    height: 10rem;
-    width: 79rem;
-    margin: 6rem 1rem;
+    height: 160px;
+    width: 100%;
+    margin: 6rem 0;
 }
 
 .business-plan-partners {
     background-color: #b4d0e7;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
-.mini-logos-left,
-.mini-logos-right {
-    height: 39.6rem;
-    width: 39.6rem;
-    flex-wrap: wrap;
+.square-big {
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
 }
 
 .company-logo {
-    height: 19.8rem;
-    width: 19.8rem;
+    height: calc(100% / 2);
+    width: calc(100% / 2);
 }
 
-.company-big {
-    height: 39.6rem;
-    width: 39.6rem;
-}
 
 .start-freetrial {
-    height: 10rem;
-    width: 68vw;
-    margin: 6rem 0;
+    height: 160px;
+    margin: 6rem auto;
 }
 
 .faq {
     background-color: darkkhaki;
-    height: 30rem;
+    height: 480px;
     margin: 6rem auto;
     line-height: 7.3rem;
 }
 
 footer {
     background-color: rgb(44, 5, 62);
-    height: 60vh;
+    height: 500px;
+}
+
+.links {
+    padding-top: 3rem;
 }
 
 .footer-column {
-    height: 22rem;
-    width: 16rem;
-    margin: 3rem 1.5rem;
+    height: 300px;
+    width: calc(100% / 5 - 2rem);
 }
 
 .language {
-    height: 5rem;
-    margin-top: 2rem;
+    height: 70px;
+    margin-top: 3.5rem;
 }
