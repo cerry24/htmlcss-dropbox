@@ -70,18 +70,44 @@ li>a {
 
 #jumbotron {
     background-color: #b4d0e7;
-    height: 70vh;
+    height: 700px;
     padding-top: 6rem;
 }
 
 .jumbo-content {
-    background-color: orange;
     height: 100%;
 }
 
 .jumbo-content h1 {
+    width: 100%;
     font-weight: 800;
     font-size: 60px;
+}
+
+.text {
+    flex-basis: 40%;
+}
+
+.jumbo-content p {
+    margin: 3rem 1.5rem 0 0;
+}
+
+.start-free {
+    margin-top: 1.5rem;
+}
+
+.fa-solid.fa-arrow-down {
+    font-size: 40px;
+    margin-top: 6.5rem;
+}
+
+.img {
+    margin-top: 3rem;
+    flex-basis: 60%;
+}
+
+.jumbo-content img {
+    width: 800px;
 }
 
 section.plans-choice .container {
