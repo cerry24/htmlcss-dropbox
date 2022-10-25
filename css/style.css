@@ -114,8 +114,13 @@ section.plans-choice .container {
     background-color: darkolivegreen;
 }
 
+.section-title {
+    padding-top: 7rem;
+}
+
 .radio {
-    padding-top: 5rem;
+    display: inline-block;
+    margin: 3rem 1rem 0 0;
 }
 
 .column {
