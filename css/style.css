@@ -128,7 +128,7 @@ section.plans-choice .container {
 }
 
 .column {
-    height: 800px;
+    height: 900px;
     width: calc(100% / 3 - 2rem);
     margin-top: 3rem;
     border: 2px solid gray;
