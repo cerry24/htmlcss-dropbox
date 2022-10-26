@@ -130,6 +130,9 @@ li>a {
 .column {
     width: calc(100% / 3 - 2rem);
     margin-top: 3rem;
+}
+
+.plans-choice .column {
     border: 2px solid gray;
 }
 
@@ -152,8 +155,8 @@ li>a {
     border-bottom: 2px solid gray;
 }
 
-.column>h3, 
-.full-width-column>h3 {
+.plans-choice .column>h3, 
+.plans-choice .full-width-column>h3 {
     padding: 2rem 2rem 0;
 }
 
@@ -223,7 +226,14 @@ li>a {
 
 section.business-features .columns {
     background-color: brown;
-    padding-top: 4rem;
+}
+
+.business-features .column img {
+    width: 100%;
+}
+
+.business-features .column p {
+    padding-top: 1rem;
 }
 
 .discover-more {
