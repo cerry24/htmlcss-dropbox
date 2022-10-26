@@ -326,13 +326,28 @@ li>a {
 .start-freetrial button{
     padding: .8rem 2rem;
     margin-top: 5px;
+    border: none;
 }
 
 .faq {
-    background-color: darkkhaki;
-    height: 480px;
-    margin: 6rem auto;
-    line-height: 7.3rem;
+    margin-bottom: 8rem;
+}
+
+.faq .section-title {
+    padding-bottom: 3rem;
+    border-bottom: 2px gray solid;
+}
+
+.question {
+    padding: 1.5rem 0;
+    border-bottom: 2px gray solid;
+    position: relative;
+}
+
+.fa-solid.fa-angle-down {
+    position: absolute;
+    top: 28px;
+    right: 28px;
 }
 
 footer {
