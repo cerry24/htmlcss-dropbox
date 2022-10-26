@@ -306,6 +306,14 @@ li>a {
     background-color: #ffd830;
 }
 
+.padding-square {
+    padding: 3rem 2rem;
+}
+
+.img-big {
+    width: 60%;
+}
+
 .start-freetrial {
     height: 160px;
     margin: 6rem auto;
