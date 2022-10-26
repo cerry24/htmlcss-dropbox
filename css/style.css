@@ -61,16 +61,20 @@ li>a {
     color: black;
 }
 
-.button-start {
-    background-color: #0061ff;
-    color: white;
+.button {
+    text-decoration: none;
     border: none;
     padding: .8rem;
 }
 
+.blue-button {
+    background-color: #0061ff;
+    color: white;
+}
+
 #jumbotron {
     background-color: #b4d0e7;
-    height: 700px;
+    height: 70vh;
     padding-top: 6rem;
 }
 
@@ -88,6 +92,10 @@ li>a {
     flex-basis: 40%;
 }
 
+.img {
+    flex-basis: 60%;
+}
+
 .jumbo-content p {
     margin: 3rem 1.5rem 0 0;
 }
@@ -101,17 +109,9 @@ li>a {
     margin-top: 6.5rem;
 }
 
-.img {
-    margin-top: 3rem;
-    flex-basis: 60%;
-}
-
 .jumbo-content img {
     width: 800px;
-}
-
-section.plans-choice .container {
-    background-color: darkolivegreen;
+    margin-top: 3rem;
 }
 
 .section-title {
@@ -128,7 +128,6 @@ section.plans-choice .container {
 }
 
 .column {
-    height: 900px;
     width: calc(100% / 3 - 2rem);
     margin-top: 3rem;
     border: 2px solid gray;
@@ -136,26 +135,31 @@ section.plans-choice .container {
 
 .full-width-column {
     width: 100%;
-    height: 300px;
     margin-top: 3rem;
+    position: relative;
 }
 
 .column>span, 
 .full-width-column>span {
     width: 100%;
     display: inline-block;
-    padding: 1rem 2rem 0 2rem;
+    padding: 1rem 2rem;
 }
 
 .card-header {
     text-align: center;
-    padding: 10px 0;
+    padding-bottom: 2rem;
     border-bottom: 2px solid gray;
 }
 
 .column>h3, 
 .full-width-column>h3 {
     padding: 2rem 2rem 0;
+}
+
+.column ul, 
+.full-width-colum ul {
+    margin-bottom: 2rem;
 }
 
 .column li, 
@@ -175,14 +179,46 @@ section.plans-choice .container {
     border: 1px solid gray;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .fa-solid.fa-check {
     color: #0061ff;
 }
 
+.full-width-column button {
+    position: absolute;
+    right: 2rem;
+    top: 5.5rem;
+}
+
+.full-width-column p {
+    margin: 2rem;
+}
+
 .partner {
-    height: 500px;
     width: 100%;
-    margin: 4rem 0;
+    margin: 6rem 0;
+}
+
+.partner img {
+    height: 555px;
+    width: 650px;
+}
+
+.partner h3 {
+    padding-top: 4rem;
+}
+
+.partner p {
+    width: 400px;
+    padding: 1.5rem 0;
+}
+
+.white-btn {
+    border: 2px black solid;
+    background-color: white;
 }
 
 section.business-features .columns {
