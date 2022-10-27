@@ -351,8 +351,8 @@ li>a {
 }
 
 footer {
-    background-color: rgb(44, 5, 62);
-    height: 500px;
+    background-color: black;
+    /* height: 600px; */
 }
 
 .links {
@@ -369,11 +369,26 @@ footer {
 }
 
 .footer-column {
-    height: 300px;
+    /* height: 300px; */
     width: calc(100% / 5 - 2rem);
+    margin-bottom: 4rem;
+}
+
+footer .separator {
+    margin: 2rem 0;
+    width: 115px;
 }
 
 .language {
-    height: 70px;
-    margin-top: 3.5rem;
+    display: inline-block;
+    width: 100px;
+    color: gray;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.fa-solid.fa-sort-up {
+    position: absolute;
+    top: 7px;
+    right: 5px;
 }
