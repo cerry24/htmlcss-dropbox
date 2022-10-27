@@ -59,7 +59,7 @@ header ul li {
     display: inline;
 }
 
-li>a {
+header li>a {
     text-decoration: none;
     color: black;
 }
@@ -376,6 +376,11 @@ footer {
 
 .links ul li {
     list-style-type: none;
+}
+
+.links li>a {
+    text-decoration: none;
+    color: white;
 }
 
 .links h3 {
