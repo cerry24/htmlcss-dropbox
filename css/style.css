@@ -31,12 +31,15 @@ body {
     margin: 0 auto;
 }
 
-.structure-border {
+/* .structure-border {
     border: 2px dashed black;
-}
+} */
 
 header {
     height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
 }
 
 .main-nav {
@@ -112,6 +115,10 @@ li>a {
 .jumbo-content img {
     width: 800px;
     margin-top: 3rem;
+}
+
+.plans-choice {
+    background-color: white;
 }
 
 .section-title {
@@ -224,6 +231,10 @@ li>a {
     background-color: white;
 }
 
+.business-features {
+    background-color: white;
+}
+
 .business-features .column img {
     width: 100%;
 }
@@ -329,6 +340,10 @@ li>a {
     border: none;
 }
 
+.frequent-questions {
+    background-color: white;
+}
+
 .faq {
     margin-bottom: 8rem;
 }
@@ -352,7 +367,6 @@ li>a {
 
 footer {
     background-color: black;
-    /* height: 600px; */
 }
 
 .links {
@@ -369,7 +383,6 @@ footer {
 }
 
 .footer-column {
-    /* height: 300px; */
     width: calc(100% / 5 - 2rem);
     margin-bottom: 4rem;
 }
